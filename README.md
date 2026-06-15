@@ -7,8 +7,6 @@ This repository implements an algorithm for **automatic event detection in footb
 Python 3.10.19.
 
 ```bash
-git clone https://github.com/GeonHeeJo2000/Event-Detection.git
-cd Event-Detection
 pip install -r requirements.txt
 ```
 
@@ -127,8 +125,3 @@ python evaluate.py \
 │── 📄 evaluate.py                # evaluate kick/set-piece/custom-rule + Stage-3 classifier ablation (--xgb_pred, --tabpfn_pred, ...)
 └── ...
 ```
-
-## Affiliations
-
-Research conducted by
-**[University of Seoul CIDA Lab](https://cida.uos.ac.kr)**.
